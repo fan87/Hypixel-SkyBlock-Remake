@@ -1,38 +1,38 @@
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 ![Banner](readme-assets/banner.png)
 
-## Contents
+## Index
 
- - [Contents](#contents)
+ - [Index](#index)
  - [Development](#development)
  -  - [Gradle](#gradle)
  -  - [File Structure](#file-structure)
@@ -40,6 +40,7 @@
  -  - [Vulnerabilities](#vulnerabilities)
  - [Contact](#contact)
  -  - [Discord](#discord)
+ - [License](#license)
 
 
 
@@ -53,7 +54,8 @@ We are using Gradle for this project
 Gradle Wrapper. If you would like to use Gradle on your local machine
 
 ### File Structure
-[#]:<>(Using `sh` for comments syntax highlight)
+[//]: # (Using `sh` for comments syntax highlight)
+
 ```sh
 # File structure
 
@@ -143,31 +145,35 @@ and open a ticket.
 `fan87#5283` - Head Developer<br>
 `TropicalFan344#2076` - Head Developer
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+
+## License
+Please check [`LICENSE`](LICENSE) for more information.
+
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
 
 
-[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)
+<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->
