@@ -14,7 +14,8 @@ We are using Gradle for this project
 Gradle Wrapper. If you would like to use Gradle on your local machine
 
 ### File Structure
-[#]:<>(Using `sh` for comments syntax highlight)
+[//]: # (Using `sh` for comments syntax highlight)
+
 ```sh
 # File structure
 

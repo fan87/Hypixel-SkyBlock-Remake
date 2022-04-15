@@ -84,9 +84,9 @@ open class ReadMeChapterGenerator: DefaultTask() {
             }
         }
 
-        output.writeText("\n[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)\n\n"*10 +
+        output.writeText("\n<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->\n\n"*10 +
                 "${beforeInputBuffer}\n$chaptersBuffer\n$afterInputBuffer" +
-                "\n\n[#]:<>(You shouldn't be editing this file! Edit `readme.raw.md` instead!)\n"*10, Charset.forName(charset.get()))
+                "\n\n<!-- You shouldn't be editing this file! Edit `readme.raw.md` instead! -->\n"*10, Charset.forName(charset.get()))
 
     }
 
