@@ -1,6 +1,6 @@
 ![Banner](readme-assets/banner.png)
 
-## Contents
+## Index
 // INSERT_CHAPTER_TAG
 
 
@@ -103,3 +103,7 @@ and open a ticket.
 
 `fan87#5283` - Head Developer<br>
 `TropicalFan344#2076` - Head Developer
+
+
+## License
+Please check [`LICENSE`](LICENSE) for more information.
