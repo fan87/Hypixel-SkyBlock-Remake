@@ -1,0 +1,14 @@
+
+# Server Directory
+run/
+
+
+# Unwanted IDE / User specific files
+.idea/**
+**.iml
+
+
+# Gradle Cache
+.gradle
+# Gradle Build
+build/
