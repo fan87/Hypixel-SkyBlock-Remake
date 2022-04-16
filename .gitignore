@@ -7,8 +7,14 @@ run/
 .idea/**
 **.iml
 
+# IntelliJ Build (Shouldn't exist, just in case)
+out/
+
 
 # Gradle Cache
 .gradle
 # Gradle Build
 build/
+
+# BuildTools
+BuildTools/

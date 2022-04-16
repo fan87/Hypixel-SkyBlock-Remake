@@ -35,6 +35,9 @@
  - [Index](#index)
  - [Development](#development)
  -  - [Gradle](#gradle)
+ -  - [Developing](#developing)
+ -  -  - [Test Running](#test-running)
+ -  -  - [Building](#building)
  -  - [File Structure](#file-structure)
  -  - [About Kotlin and Gradle - Why we use them](#about-kotlin-and-gradle---why-we-use-them)
  -  - [Vulnerabilities](#vulnerabilities)
@@ -51,7 +54,61 @@ This project requires a lot of work, contributions are very welcome.
 ### Gradle
 We are using Gradle for this project
 (See [About Kotlin and Gradle - Why we use them](#about-kotlin-and-gradle---why-we-use-them)). It's recommend to use
-Gradle Wrapper. If you would like to use Gradle on your local machine
+Gradle Wrapper. If you would like to use Gradle on your local machine.
+
+It may take a while for the initial set up, not only because it's downloading Gradle Wrapper, but it's also downloading
+BuildTools, and building a Spigot `server.jar`, and using it as dependency and `server.jar` to launch the server.
+
+> ℹ If it freezes at `:plugin`, it's completely normal. As I said: it's building Spigot as dependency. If you want to
+> see what it's doing right now, you can add `--info` argument to gradle, and it will print out more information
+> about what it's doing right now.
+
+### Developing
+#### Test Running
+> ℹ There's a ~0.5s input latency, but let's not worry about that. Don't worry! It doesn't affect the performance of
+> the test server
+
+Since we are using Gradle, we've set up a task that runs the server, and set everything up automatically.
+
+To run the task, you can run test server with this command:
+
+Unix-like operating system:
+```sh
+chmod +x gradlew # It's not executable by default. You only have to run it for the first time
+./gradlew runServer --console=plain
+```
+Windows:
+```batch
+gradlew.bat runServer --console=plain
+```
+
+> ℹ `--console=pain` removes that fancy but annoying progress bar. You don't need it for test running
+
+
+If you want to reload the plugin, you can run this following task:
+
+Unix-like operating system:
+```sh
+chmod +x gradlew # It's not executable by default. You only have to run it for the first time
+./gradlew reloadPlugin
+```
+Windows:
+```batch
+gradlew.bat reloadPlugin
+```
+
+#### Building
+You can build the plugin with this command:
+
+Unix-like operating system:
+```sh
+chmod +x gradlew # It's not executable by default. You only have to run it for the first time
+./gradlew build
+```
+Windows:
+```batch
+gradlew.bat build
+```
 
 ### File Structure
 [//]: # (Using `sh` for comments syntax highlight)
@@ -63,6 +120,7 @@ Gradle Wrapper. If you would like to use Gradle on your local machine
 gradle/ # A directory for gradle wrapper
 run/ # Where server runs. File structure inside run/ may change anytime
 readme-assets/ # Assets for this file. For example: Banner
+BuildTools/ # Where Spigot BuildTools runs. Publishing server.jar directly is against EULA 
 
 buildSrc/ # See https://docs.gradle.org/current/userguide/organizing_gradle_projects.html#sec:build_sources
 

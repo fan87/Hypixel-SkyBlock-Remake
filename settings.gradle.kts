@@ -8,4 +8,4 @@ pluginManagement {
 
 rootProject.name = "hypixel-skyblock-remake"
 
-include("plugin")
+include("hypixel-skyblock-plugin")
