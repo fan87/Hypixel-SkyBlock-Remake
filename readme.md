@@ -45,6 +45,14 @@
  -  - [Discord](#discord)
  - [License](#license)
 
+# End Of Project
+It's been a long while since I started the Hypixel SkyBlock Remake project, but it's the end of this project.
+
+Not going to say much, but the main reason is that Hypixel SkyBlock has changed too much, I don't enjoy it anymore, and my life has changed too much and I kinda can't handle it, I really need a rest.
+
+Right now my life is just a mess, it's completely different from what it is when I started this project, I have no clue what's actually happening, so I have to deal with this first.
+
+Ok let's just say my life goes fine, another problem is that I don't enjoy Hypixel SkyBlock anymore, it has changed too much, and all of those old SkyBlock memories cannot be found anymore. It's just impossible for me to get back on this project, at least in 2022.
 
 
 ## Development
